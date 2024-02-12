@@ -27,12 +27,18 @@
         margin: 10px 0;
     }
 /* banner */
+.notice-Link{
+    background-color: #EEEEEE; padding: 10px; margin-top: -0px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;
+  }
+  .bekhappa{
+    height: 150px;
+  }
 .banner{
     max-width: 425px;
 }
 .banner-photo{
     width: 425px;
-    height: 250px;
+    height: 150px;
 }
 .socail-icons{
     visibility: hidden;
@@ -73,6 +79,14 @@
    
    
 }
+.notice-Link{
+ 
+     padding: 0px;
+     height: 80px;
+
+   
+      
+  }
 .main{
     margin-left: 0px;
 }

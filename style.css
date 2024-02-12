@@ -106,8 +106,19 @@ input[type="search"]::placeholder {
     right: 10px;
   }
 
-  
+  .notice-Link{
+    background-color: #EEEEEE;
+     padding: 10px;
+      margin-top: -5px; 
+      display: flex; 
+      justify-content: space-between;
+       align-items: center; 
+       cursor: pointer;
+  }
 
+  .bekhappa{
+    height: 250px;
+  }
 
   .icon :hover{
     border:#068a6b ;
@@ -155,6 +166,7 @@ input[type="search"]::placeholder {
 
 .banner-photo{
     width: 1400px;
+    height: 250px;
 }
 
 
@@ -198,3 +210,22 @@ input[type="search"]::placeholder {
 .pragraph{
     margin-left: 250px; color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
