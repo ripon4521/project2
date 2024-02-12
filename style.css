@@ -1,0 +1,200 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    width: 1400px;
+    margin: auto;
+    font-family:  sans-serif;
+}
+
+.navlink{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.link{
+    /* margin-right: 30px; */
+   list-style: none;
+   /* font-family: 'Helvetica Neue', sans-serif;
+    */
+ 
+  
+}
+.link a{
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-right: 15PX;
+}
+.header{
+    background-color: #00533F;
+    display: flex;
+    justify-content: space-between;
+
+}
+.website-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="search"] {
+    /* This will change the text color */
+    color: #ffff; /* Change this value to the desired color */
+    
+    /* This will change the background color */
+    background-color: #068a6b; /* Change this value to the desired background color */
+    
+    /* Additional styling */
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+/* Change placeholder color for input fields */
+
+input[type="search"]::placeholder {
+    color: #fff; /* Change this value to the desired placeholder color */
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.toggle-line {
+    width: 25px;
+    height: 3px;
+   color: white;
+    margin: 4px 0;
+    padding-left: 5px;
+}
+
+
+
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }
+
+  
+
+
+  .icon :hover{
+    border:#068a6b ;
+}
+.text1:hover{
+    color: #068a6b;
+    text-decoration: underline;
+}
+
+.main{
+    margin-left: 50px;
+}
+.content1 h2:hover{
+    text-decoration: underline;
+}
+.content{
+    width: 680px;
+    display: flex;
+    justify-content:space-between ;
+   
+}
+
+.content2{
+    margin-left: 0px;
+    width: 308px;
+}
+.content2 P{
+    margin-left: 60px;
+ 
+}
+.button-side{
+   float: right;
+   margin-left: 300px;
+}
+.metrics{
+    margin-left: -60px; 
+}
+
+
+
+
+
+
+
+
+.banner-photo{
+    width: 1400px;
+}
+
+
+.content3{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.content3 h3:hover{
+    color:#068a6b;
+}
+
+
+.pragraph{
+    margin-left: 250px; color: white;
+}
+
+
+
+.card{
+    width: 250px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.card img{
+    width: 250px;
+   
+}
+.card p{
+   color: dimgray;
+   
+}
+.card h2{
+    text-align: start;
+}
+.pragraph{
+    margin-left: 250px; color: white;
+}
