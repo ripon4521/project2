@@ -1,0 +1,166 @@
+*{
+    border: 0;
+    margin: 0;
+    
+}
+body{
+    width: 1400px;
+    margin: auto;
+    font-family:  sans-serif;
+    box-shadow: 5px 5px 5px 5px #d1cdcd;
+
+}
+
+.navlink{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.link{
+    /* margin-right: 30px; */
+   list-style: none;
+   /* font-family: 'Helvetica Neue', sans-serif;
+    */
+ 
+  
+}
+.link a{
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-right: 15PX;
+}
+.header{
+    background-color: #00533F;
+    display: flex;
+    justify-content: space-between;
+
+}
+.website-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="search"] {
+    /* This will change the text color */
+    color: #ffff; /* Change this value to the desired color */
+    
+    /* This will change the background color */
+    background-color: #068a6b; /* Change this value to the desired background color */
+    
+    /* Additional styling */
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+/* Change placeholder color for input fields */
+
+input[type="search"]::placeholder {
+    color: #fff; /* Change this value to the desired placeholder color */
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.toggle-line {
+    width: 25px;
+    height: 3px;
+   color: white;
+    margin: 4px 0;
+    padding-left: 5px;
+}
+
+
+/* Banner */
+.banner{
+    width: 1400px;
+}
+
+.icon :hover{
+    border:#068a6b ;
+}
+.text1:hover{
+    color: #068a6b;
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main{
+    display: flex; justify-content: space-around; padding: 0 30px 0 30px; margin-top: 50px;
+}
+.content1{
+    width: 648px; padding: 10px;
+    
+}
+.bg{
+    background-color: #EEEEEE;
+     height: 50px;
+    
+     width: 600px;
+     /* margin-left: 300px; */
+     margin-top: 40px;
+    
+    
+}
+.content1-photo{
+    width: 600px;
+    float: right;
+
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.content2{
+    margin-top: 100px;
+    width: 211px;
+    border-left: 2px solid #ccc;
+    height: 400px;
+
+   
+   
+}
+.content2 p{
+   margin-top: 25px;
+   margin-left: 60px;
+   color: #ccc;
+
+}
+.content2 p:hover{
+ color: #068a6b;
+
+}
+.button{
+    margin-top: 30px;
+}
+
+.content3{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.content3 h3:hover{
+    color:#068a6b;
+}
+
+
+.pragraph{
+    margin-left: 250px; color: white;
+}
+
+.notices{
+    background-color: #EEEEEE; padding: 10px; margin-top: -5px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;
+}
+
+
+
+
+
+
+
+
